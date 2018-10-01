@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Postaw Milion</string>
+
+    //MENU
+    <string name="play">GRAJ</string>
+    <string name="info">INFORMACJE</string>
+    <string name="exit">WYJŚCIE</string>
+    <string name="no_ads">WYŁĄCZ REKLAMY -></string>
+
+    //INFO
+    <string name="game_rules">ZASADY GRY</string>
+    <string name="round1">RUNDY 1-5\nDostępne są 4 warianty odpowiedzi. Użytkownik może postawić wybraną kwotę pieniędzy maksymalnie na 3 warianty.</string>
+    <string name="round2">RUNDY 6-8\nDostępne są 3 warianty odpowiedzi. Użytkownik może postawić wybraną kwotę pieniędzy maksymalnie na 2 warianty.</string>
+    <string name="round3">RUNDY 9-10\nDostępne są 2 warianty odpowiedzi. Użytkownik może postawić wybraną kwotę pieniędzy maksymalnie na 1 z wariantów.</string>
+
+    <string name="fullmoney">W każdej z rund należy obstawić całą dostępną pule pieniędzy.</string>
+    <string name="control">Aby postawić pieniądze na wybrany wariant wykonaj gest przesunięcia rozpoczynając od puli pieniędzy a kończąc na wybranej zapadni. W momencie kiedy się pomylisz kliknij na wybraną zapadnie, a wszystkie postawione pieniądze wrócą do puli.</string>
+    <string name="internet">Gra wymaga połączenia z internetem!\nFunkcja - Wyłącz reklamy - wyłącza wyświetlanie reklam do momentu ponownego uruchomienia aplikacji.</string>
+
+    <string name="goodluck">POWODZENIA!</string>
+
+    //GAME
+    <string name="chose_category">WYBIERZ KATEGORIĘ:</string>
+    <string name="check">SPRAWDZAM</string>
+    <string name="lose">PRZEGRAŁEŚ</string>
+    <string name="next">DALEJ</string>
+    <string name="win">WYGRAŁEŚ!</string>
+    <string name="end">KONIEC</string>
+    <string name="nextRound">NASTĘPNA RUNDA</string>
+    <string name="video">Reklama nie załadowała się jeszcze. Proszę spróbuj za chwilę ...</string>
+    <string name="bet">0 PLN</string>
+
+</resources>

@@ -1,0 +1,35 @@
+
+<resources>
+    <string name="app_name">Bet On Million</string>
+
+    //MENU
+    <string name="play">PLAY</string>
+    <string name="info">INFO</string>
+    <string name="exit">EXIT</string>
+    <string name="no_ads">DISABLE ADS -></string>
+
+    //INFO
+    <string name="game_rules">GAME RULES</string>
+
+    <string name="round1">ROUND 1-5\nThere are 4 variants of the answer. The user can bet the selected amount of money up to 3 variants.</string>
+    <string name="round2">ROUND 6-8\nThere are 3 variants of the answer. The user can bet the selected amount of money up to 2 variants.</string>
+    <string name="round3">ROUND 9-10\nThere are 2 variants of the answer. The user can bet the selected amount of money up to 1 variant.</string>
+
+    <string name="fullmoney">You must place all available money in each round</string>
+    <string name="control">To place money on the chosen variant, complete the shift gesture starting from the pool of money and ending with the selected trapdoor. At the moment you make a mistake, click on the chosen trapdoor, and all the bets will return to the pot.</string>
+    <string name="internet">The game requires an internet connection!\nThe - Disable ads - function disables ad serving until the application is restarted.</string>
+
+    <string name="goodluck">GOOD LUCK!</string>
+
+    //GAME
+    <string name="chose_category">CHOOSE A CATEGORY:</string>
+    <string name="check">CHECK</string>
+    <string name="lose">YOU LOST</string>
+    <string name="next">NEXT</string>
+    <string name="win">YOU WIN!</string>
+    <string name="end">END</string>
+    <string name="nextRound">NEXT ROUND</string>
+    <string name="video">The ad has not been loaded yet. Please try again in a moment ...</string>
+    <string name="bet">0 USD</string>
+
+</resources>

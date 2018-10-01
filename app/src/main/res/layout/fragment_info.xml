@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="missingPrefix"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3">
+
+            <TextView
+                android:text="@string/game_rules"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                app:autoSizeMaxTextSize="48sp"
+                app:autoSizeMinTextSize="16sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"/>
+
+            <ImageView
+                android:id="@+id/info_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:scaleType="centerInside"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="@string/round1"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".3"
+                    android:padding="8dp"
+                    app:autoSizeMaxTextSize="24sp"
+                    app:autoSizeMinTextSize="8sp"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform"/>
+
+                <TextView
+                    android:text="@string/round2"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".3"
+                    android:padding="8dp"
+                    app:autoSizeMaxTextSize="24sp"
+                    app:autoSizeMinTextSize="8sp"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform"/>
+
+                <TextView
+                    android:text="@string/round3"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".3"
+                    android:padding="8dp"
+                    app:autoSizeMaxTextSize="24sp"
+                    app:autoSizeMinTextSize="8sp"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="@string/fullmoney"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".2"
+                    android:padding="8dp"
+                    app:autoSizeMaxTextSize="24sp"
+                    app:autoSizeMinTextSize="8sp"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform"/>
+
+                <TextView
+                    android:text="@string/control"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".6"
+                    android:padding="8dp"
+                    app:autoSizeMaxTextSize="24sp"
+                    app:autoSizeMinTextSize="8sp"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform"/>
+
+                <TextView
+                    android:text="@string/internet"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".3"
+                    android:padding="8dp"
+                    app:autoSizeMaxTextSize="24sp"
+                    app:autoSizeMinTextSize="8sp"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2">
+
+            <ImageView
+                android:id="@+id/info_back"
+                android:src="@drawable/back"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:padding="2dp"
+                android:scaleType="centerInside"/>
+
+            <TextView
+                android:text="@string/goodluck"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".8"
+                android:padding="8dp"
+                app:autoSizeMaxTextSize="48sp"
+                app:autoSizeMinTextSize="16sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"/>
+                />
+        </TableRow>
+    </LinearLayout>
+</LinearLayout>

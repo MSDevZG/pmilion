@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="missingPrefix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".6">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".15"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".7"
+            android:background="@drawable/tvsecond"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".02"/>
+            <ImageView
+                android:id="@+id/image_logo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"/>
+
+            <TextView
+                android:id="@+id/wintext"
+                android:text="@string/lose"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".2"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="12sp"
+                app:autoSizeMaxTextSize="128sp"
+                app:autoSizeStepGranularity="2sp"/>
+
+            <Button
+                android:id="@+id/endGame"
+                android:text="@string/next"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".2"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="4dp"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="12sp"
+                app:autoSizeMaxTextSize="28sp"
+                app:autoSizeStepGranularity="2sp"
+                android:background="@android:color/transparent"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".1"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".15"/>
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"/>
+
+</LinearLayout>
