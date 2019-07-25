@@ -21,3 +21,7 @@ Po wyborze kategorii, gracz w zależności od levelu otrzymuje odpowiedzi:
   - Poziom 9-10 - Dwie odpowiedzi w tym jedna poprawna.
   
 Gracz może dowolnie rozdzielać pieniądze w taki sposób, aby jedna z odpowiedzi została pusta.
+
+<p align="center">
+  <img src="https://image.winudf.com/v2/image/ZGV2Lm0uc2tyenlwa2EucG1pbGlvbl9zY3JlZW5fMV8xNTI1MDQyNTc4XzAzNQ/screen-1.jpg?h=355&fakeurl=1&type=.jpg"/>
+</p>
